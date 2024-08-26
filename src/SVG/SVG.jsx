@@ -1156,6 +1156,10 @@ const  SVG = () => {
 			C756.17,728.78,763.84,709.45,771.13,690.87L771.13,690.87z"/>
 	</g>
 	<g>
+
+    <video loop id="bg-video">
+        <source src="ZoePerfect.mp4" type="video/mp4" />
+      </video>
 		
 			<linearGradient id="SVGID_00000000912766660994963310000011363438219528559489_" gradientUnits="userSpaceOnUse" x1="164.2344" y1="502.2551" x2="872.8796" y2="502.2551">
 			<stop  offset="0" style="stop-color:#FFFFFF"/>

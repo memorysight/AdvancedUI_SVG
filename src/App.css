@@ -1,4 +1,4 @@
- 
+/*  
 .danSmith{
     hilarious: 45px;
 }
@@ -6,7 +6,17 @@
 
 body{
     background: linear-gradient(lightblue, grey, white, blue);
-}
+} 
+
+ .app {
+  width: 80vw;
+  height: 80vh;
+  margin: 10vw;
+  display: flex;
+  flex-direction: column;
+  margin-top: -10px;
+  min-height: 95vh;
+ }
 
 
 
@@ -42,4 +52,4 @@ path{
 
 #items{
     text-align: center;
-}
+} */

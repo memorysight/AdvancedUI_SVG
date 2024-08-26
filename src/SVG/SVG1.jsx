@@ -1,5 +1,11 @@
 import * as React from "react";
-const SVG1 = (props) => (
+
+const video = document.getElementById('bg-video');
+const SVG1 = (props) => {
+
+    const video = document.getElementById('bg-video');
+    return (
+  <div className="app">
   <svg
     id="Layer_1"
     xmlns="http://www.w3.org/2000/svg"
@@ -14211,6 +14217,13 @@ const SVG1 = (props) => (
       <stop offset={0.9114} style={{ stopColor: "#F0F0F0" }} />
       <stop offset={1} style={{ stopColor: "#EFEFEF" }} />
     </linearGradient>
+
+   
+
+
+
+
+
     <ellipse
       style={{
         fill: "url(#SVGID_00000045619605057699165880000017134023126802976656_)",
@@ -14237,6 +14250,8 @@ const SVG1 = (props) => (
       <stop offset={0.7993} style={{ stopColor: "#FFFFFF" }} />
       <stop offset={0.9114} style={{ stopColor: "#F0F0F0" }} />
     </linearGradient>
+
+    
     <ellipse
       style={{
         fill: "url(#SVGID_00000134950870571051458050000005457909155917528740_)",
@@ -14317,5 +14332,9 @@ const SVG1 = (props) => (
       </tspan>
     </text>
   </svg>
-);
+
+  </div>
+    )
+
+}
 export default SVG1;
