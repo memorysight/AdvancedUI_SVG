@@ -1,5 +1,6 @@
 import * as React from "react";
 
+
 const NavBar = (props) => (
   <svg
     id="Layer_1"
