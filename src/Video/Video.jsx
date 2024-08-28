@@ -1,5 +1,7 @@
 import * as React from "react";
 import Buttons from "../SVG/Buttons";
+import NavBar from '../SVG/NavBar';
+
 
 const Video = () => {
   const [isCSSInitiated, setIsCSSInitiated] = React.useState(false);
@@ -10,11 +12,13 @@ const Video = () => {
 
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
+        <NavBar />
+      
       <video id="bg-video" style={{ width: "100%" }}>
         <source src="ZoePerfect.mp4" type="video/mp4" />
       </video>
       <Buttons onClick={handleClick} style={{ width: "100%" }}></Buttons>
-
+       
       {isCSSInitiated && (
         <style>
           {`
@@ -46,6 +50,7 @@ const Video = () => {
             }
           `}
         </style>
+       
       )}
     </div>
   );
