@@ -2,7 +2,8 @@ import * as React from "react";
 import Buttons from "../SVG/Buttons";
 import NavBar from '../SVG/NavBar';
 import Nav1 from "../SVG/Nav1";
-import Overlay2 from '../SVG/Overlay2';
+import Overlay3 from '../SVG/Overlay3';
+import Buttons2 from '../SVG/Buttons2';
 
 
 const Video = () => {
@@ -14,13 +15,15 @@ const Video = () => {
 
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
-     <Overlay2 />
+     <Overlay3 />
      
       <video id="bg-video" style={{ width: "100%" }}>
         <source src="ZoePerfect.mp4" type="video/mp4" />
       </video>
-      <Buttons onClick={handleClick} style={{ width: "100%" }}></Buttons>
+      <Buttons2 onClick={handleClick} style={{ width: "100%" }}></Buttons2>
        
+   
+
       {isCSSInitiated && (
         <style>
           {`

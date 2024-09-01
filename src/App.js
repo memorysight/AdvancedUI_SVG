@@ -10,8 +10,8 @@ function App() {
     <div>
       <Video />
     /
-      <Nav1 />
-      <Video />
+      {/* <Nav1 /> */}
+      
 
     </div>
   );
