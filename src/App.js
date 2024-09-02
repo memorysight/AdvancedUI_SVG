@@ -1,19 +1,22 @@
 import "./App.css";
 import "./SVG/SVG.css";
-import SVG1 from "./SVG/SVG1";
 import Video from "./Video/Video.jsx";
-import Nav1 from "./SVG/Nav1";
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Layout from './Layout';
+import SVGUIApp from './UITemplate/SVGUIapp.jsx'
 
 
 function App() {
   return (
-    <div>
-      <Video />
-    /
-      {/* <Nav1 /> */}
-      
-
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Video />} />
+          <Route path="/svguiapp" element={<SVGUIApp />} />
+       </Route>
+      </Routes>
+    </Router>
   );
 }
 
