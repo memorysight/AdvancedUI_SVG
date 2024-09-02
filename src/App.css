@@ -63,5 +63,6 @@ path{
 
 .item {
   background-color: black;
- 
+  padding: 30px;
+  margin: .01px;
 }

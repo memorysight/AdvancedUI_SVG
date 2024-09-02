@@ -16,10 +16,10 @@ function Layout() {
     return (
       <div>
         <header>
-          <h1>Zoe: Advanced AI System</h1>
-          <nav className='layout'>
+         
+          <nav>
             
-            <ul >
+            <ul className="layout">
               <li className="item"><a href="/"> Zoe</a></li>
               <li className="item"><a href="/video"> Video</a></li>
               <li className="item"><a href="/svguiapp"> SVGUIApp</a></li>
