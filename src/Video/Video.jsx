@@ -15,11 +15,24 @@ const Video = () => {
 
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
-     <Overlay2 />
+     {/* <Overlay2 /> */}
      
       <video id="bg-video" style={{ width: "100%" }}>
         <source src="ZoePerfect.mp4" type="video/mp4" />
       </video>
+
+      
+      {/* Add another video using the ::before pseudo-element */}
+      <div style={{ position: "absolute", top: 0, left: 0, width: "50%", height: "50%", zIndex: -1 }}>
+        <video id="bg2-video" autoPlay loop muted>
+          <source src="Alien.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+
+
+
+
       <Buttons2 onClick={handleClick} style={{ width: "100%" }}></Buttons2>
        
    

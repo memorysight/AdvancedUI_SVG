@@ -56,13 +56,26 @@ path{
 
 
 
-.layout {
-  display: flex;
-  flex-direction: row;
-}
 
-.item {
-  background-color: black;
-  padding: 30px;
-  margin: .01px;
-}
+.layout {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .item {
+    background-color: black;
+    padding: 30px;
+    margin: .01px;
+  }
+  
+  
+  #bg2-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  

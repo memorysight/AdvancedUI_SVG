@@ -4,6 +4,7 @@ import SVGUIBottom from './SVGUIBotton';
 import SVGUIMiddle from './SVGUIMiddle';
 import Layout from '../Layout';
 import './Template.css';
+import Video from '../Video/Video';
 
 
 
@@ -16,9 +17,10 @@ function SVGUIapp(){
 
         <div>
             <SVGTOP />
-            <SVGUIMiddle />
+            {/* <SVGUIMiddle />
             <Layout />
-            <SVGUIBottom />
+            <SVGUIBottom /> */}
+            <Video />
 
 
 

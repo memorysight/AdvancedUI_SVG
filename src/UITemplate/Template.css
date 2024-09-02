@@ -1,9 +1,22 @@
+
 .layout {
-    display: flex;
-    flex-direction: row;
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color:white;
   
-  .item {
-    background-color: white;
-   
-  }
+}
+
+.item {
+  background-color: rgb(174, 189, 11);
+  padding: 0px 20px;
+  border: 1px solid black;
+  /* border-radius: 5px; */
+  /* margin: 0 10px; */
+  cursor: pointer;
+}
+
+.item:hover {
+  background-color: rgb(17, 180, 26);
+}
