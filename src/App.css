@@ -53,3 +53,15 @@ path{
 #items{
     text-align: center;
 } */
+
+
+
+.layout {
+  display: flex;
+  flex-direction: row;
+}
+
+.item {
+  background-color: black;
+ 
+}

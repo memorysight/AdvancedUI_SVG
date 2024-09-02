@@ -14,7 +14,9 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Video />} />
           <Route path="/svguiapp" element={<SVGUIApp />} />
-       </Route>
+          <Route path="/video" element={<Video />} />
+     
+      </Route>
       </Routes>
     </Router>
   );

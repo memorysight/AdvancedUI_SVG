@@ -10,19 +10,22 @@ import { Outlet } from 'react-router-dom';
 // import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
 // import MenuIcon from '@mui/icons-material/Menu';
 import '../src/App.css';
+import '../src/Video/Video.jsx';
 
 function Layout() {
     return (
       <div>
         <header>
           <h1>Zoe: Advanced AI System</h1>
-          <nav>
-            <ul>
-              <li><a href="/"> Zoe</a></li>
-              <li><a href="/video"> Video</a></li>
-              <li><a href="/svguiapp"> SVGUIApp</a></li>
+          <nav className='layout'>
+            
+            <ul >
+              <li className="item"><a href="/"> Zoe</a></li>
+              <li className="item"><a href="/video"> Video</a></li>
+              <li className="item"><a href="/svguiapp"> SVGUIApp</a></li>
               
             </ul>
+           
           </nav>
         </header>
         <main>
