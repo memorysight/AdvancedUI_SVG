@@ -4,6 +4,8 @@ import NavBar from '../SVG/NavBar';
 import Nav1 from "../SVG/Nav1";
 import Overlay2 from '../SVG/Overlay2';
 import Buttons2 from '../SVG/Buttons2';
+import SVG1 from '../SVG/SVG1';
+import SVGTOP from '../UITemplate/SVGTOP';
 
 
 const Video = () => {
@@ -15,7 +17,7 @@ const Video = () => {
 
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
-     {/* <Overlay2 /> */}
+     <SVGTOP/>
      
       <video id="bg-video" style={{ width: "100%" }}>
         <source src="ZoePerfect.mp4" type="video/mp4" />
